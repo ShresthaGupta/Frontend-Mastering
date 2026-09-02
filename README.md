@@ -6,7 +6,7 @@ In React, components are primarily meant to render UI based on data (state and p
 However, sometimes a component needs to do things that reach outside of this rendering cycle. We call these "side effects".
 
 The useEffect hook lets us perform these side effects in function components.
-
+```javascript
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     document.title = `You clicked ${count} times`;
     
   }, [count]); // 3. The Dependency Array
-
+```
 
 > How it works:
 **The Effect Function**: The first argument is the function where you put your side-effect logic (document.title = ...). React will run this function after it finishes rendering the component to the screen.
