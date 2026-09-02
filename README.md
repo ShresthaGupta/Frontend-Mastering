@@ -32,3 +32,7 @@ Other common simple use cases for useEffect:
 
 Data Fetching: Hitting an API (like fetching a list of users from a database) when the component first loads useEffect(..., []).
 Setting up subscriptions/timers: Creating a setInterval or setTimeout.
+
+**Vite vs Next**
+Vite is a lightning-fast build tool for rendering React apps entirely in the browser (Client-Side), whereas, 
+Next.js is a full-stack framework that gives you server-side rendering, file-based routing, and backend capabilities right out of the box.
