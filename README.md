@@ -72,3 +72,9 @@ Sure — here's the **noob-friendly version**. No jargon unless absolutely neces
 
 ## only 1 jsx/tsx element can be returned.
 **we can keep more elements inside a div element ultimately returning single elements**
+
+> Unlike Create React App, Vite keeps things simpler and more visible.
+In a Vite project, `index.html` directly points to your main file, like `main.jsx` or `main.tsx`. During development, Vite uses modern JavaScript modules to load the files when they are needed instead of first bundling the entire application. This makes the development server start very quickly and lets us see changes almost immediately.
+
+
+
