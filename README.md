@@ -71,4 +71,4 @@ Sure — here's the **noob-friendly version**. No jargon unless absolutely neces
 
 
 ## only 1 jsx/tsx element can be returned.
-## we can keep more elements inside a div element ultimately returning single elements
+**we can keep more elements inside a div element ultimately returning single elements**
