@@ -40,7 +40,7 @@ Next.js is a full-stack framework that gives you server-side rendering, file-bas
 **Vite Commands to build the boilerplate app**
 npm create vite@latest
 
-> dev vs build
+## dev vs build
 `npm run dev` and `npm run build` are two different jobs. Dev serves your source **as modules** so edits show up fast. Build **type-checks**, then **bundles** a static site you can host.
 
 ## `npm run dev`
